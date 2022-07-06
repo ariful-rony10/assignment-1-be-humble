@@ -1,0 +1,141 @@
+#header {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.9)),
+    url('https://i.ibb.co/rZwKv4M/donation3.jpg') no-repeat center;
+  background-size: cover;
+  min-height: 100vh;
+  color: white;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#header h1 {
+  font-size: 4rem;
+  padding: 0;
+}
+#header p {
+  font-size: 1.1rem;
+  padding: 1rem 2rem;
+  margin-bottom: 2rem;
+}
+
+/* DONATE SECTION */
+.donate-box-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+.donate-box {
+  padding: 2rem 2.5rem;
+  background-color: #f6f6f6;
+  margin-right: 0.5rem;
+  border-radius: 8px;
+  font-size: 1.5rem;
+  color: #757575;
+  transition: all 0.3s;
+}
+.donate-box:hover {
+  color: #f6f6f6;
+  background-color: #757575;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+.input-field {
+  font-family: inherit;
+  font-size: 1.5rem;
+  color: #757575;
+  width: 70%;
+  border: 0;
+  border-bottom: 1px solid #757575;
+  background: transparent;
+  padding: 7px 0;
+  outline: 0;
+  margin: 2rem;
+}
+
+/* Our DONATE PLAN SECTION */
+.icon-box-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icon-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f8e5dc;
+  padding: 2rem 1rem;
+  border-radius: 6px;
+  margin-right: 0.8rem;
+}
+.icon-box:nth-of-type(2) {
+  background-color: #ebf8dc;
+}
+.icon-box:nth-of-type(3) {
+  background-color: #d9ddf6;
+}
+/* DEPEND SECTION */
+.depend-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 90%;
+  margin: 2rem auto;
+  padding: 2rem 0;
+}
+.depend-img {
+  object-fit: cover;
+}
+.depend-img img {
+  height: 500px;
+  width: 600px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+.depend-elements {
+  padding: 1rem 3.5rem;
+}
+/* IMG GALLERY SECTION  */
+.img-gallery {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.img-gallery img {
+  margin: 3% 3% 0 0;
+  /* max-width: 30%; */
+  width: 400px;
+  height: 300px;
+  object-fit: cover;
+}
+/* EMAIL SECTION */
+#mail {
+  padding: 2rem 1rem 7rem;
+}
+#mail form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #eff6d9;
+  padding: 4rem 2rem;
+  margin: 2rem;
+}
+.email-input-field {
+  font-family: inherit;
+  font-size: 1.5rem;
+  color: #333;
+  width: 60%;
+  border: 1px solid #333;
+  background: transparent;
+  padding: 0.8rem 0;
+  outline: 0;
+}
+#mail button {
+  border-radius: 0;
+  padding: 1.1rem 5rem;
+  margin: 0;
+  width: 40%;
+}
